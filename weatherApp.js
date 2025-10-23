@@ -1,5 +1,5 @@
 import { LightningElement } from 'lwc';
-//const API_KEY = '73a45fa31864411a59203d18b5913735';
+
 
 import WEATHER_ICONS from '@salesforce/resourceUrl/weatherAppIcons';
 import getWeatherDetails from '@salesforce/apex/WeatherAppController.getWeatherDetails';
@@ -51,18 +51,6 @@ export default class WeatherApp extends LightningElement {
             this.isError = true;
         })
 
-        // this is client side api call
-       /* const URL = `https://api.openweathermap.org/data/2.5/weather?q=${this.cityName}&units=metric&appid=${API_KEY}`;
-        fetch(URL)
-            .then((res) => res.json())
-            .then((result) => {
-                this.weatherDetails(result);
-            })
-            .catch((error) => {
-                console.error(error);
-                this.loadingText = 'Something went wrong';
-                this.isError = true;
-            }); */
     }
 
     weatherDetails(info) {
