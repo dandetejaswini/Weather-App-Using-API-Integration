@@ -21,7 +21,7 @@ public with sharing class weatherAppController {
     }
 
     public static String getKey() {
-        String key = '73a45fa31864411a59203d18b5913735';
+        String key = '//your api key';
         String output = '&appid=' + key;
         return output;
     }
