@@ -3,7 +3,7 @@
 ## Overview  
 This project is a lightweight web application that fetches real-time weather data from a public weather API and displays key metrics (temperature, humidity, and weather conditions) in a clean, responsive user interface. The application is built using HTML, CSS, and JavaScript, and styled with the Salesforce Lightning Design System (SLDS) to showcase client–server API integration and modern UI design.
 
----
+
 
 ## Features  
 - Retrieve current weather information (temperature, humidity, condition) for a given city.  
@@ -11,7 +11,7 @@ This project is a lightweight web application that fetches real-time weather dat
 - Error handling for invalid city input or failed API requests.  
 - Clean code structure enabling easy extension of features.
 
----
+
 
 ## Usage Example  
 - Input: `Hyderabad`  
@@ -20,7 +20,7 @@ This project is a lightweight web application that fetches real-time weather dat
   - Humidity: `65%`  
   - Condition: `Clear sky`
 
----
+
 
 ## Future Enhancements  
 - Incorporate additional weather metrics (e.g., wind speed, pressure, visibility).  
